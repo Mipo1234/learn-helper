@@ -12,12 +12,12 @@ export default defineConfig({
       targets: [
         {
           src: "public/*",
-          dest: "epoxy-calculator-gh-pages",
+          dest: "learn-helper-gh-pages",
         },
       ],
     }),
   ],
-  base: "/epoxy-calculator/",
+  base: "/learn-helper/",
   resolve: {
     alias: {
       "@/public": "/public",
