@@ -1,5 +1,6 @@
 import { Chip } from "@heroui/react";
 import { PageLayout } from "./components/layout/PageLayout";
+import EditableCard from "./components/ui/EditableCard";
 
 const App: React.FC = () => {
   return (
@@ -10,6 +11,7 @@ const App: React.FC = () => {
           v.0.0.1
         </Chip>
       </div>
+      <EditableCard />
     </PageLayout>
   );
 };
